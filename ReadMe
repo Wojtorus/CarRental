@@ -1,0 +1,5 @@
+Musisz miec przynajmniej C# wersja 7. Jak sie wlaczy play to sie powinno od razu stworzyc baza danych sql. Tam sie wyswietli Api i mozna tam sie logowac rejetrowac itp. W tym by sie zarejestrowac jako admin i dodac samochod do sklepu trzeba wejsc do pliku AuthController w linijce 39 trzeba zmienić "User" na "Admin"
+W Api Post addCar by dodac samochód uzupełniamy wszystkie informacje a w miejsce  pictureName musi zostac uzupełniona nazwą jednego z nazw zdjec (typu 'skoda.jpg') plik z zdjęciami nazywa sie images.
+To jest jedyny sposob na dodanie pojazdu do wypozyczalni.
+By wlaczyc fronted uruchamiamy projet w visual studio code. Wchodzimy w terminal wpisujemy "npm i" poznoej "npm start". Otworzy sie strona. By zalogowqc sie jako użytkownik musimy pamiętać by zmienić w AuthController "Admin" na "User"
+STRONE OTWIERAĆ W CHROMIE
